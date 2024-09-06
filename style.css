@@ -1,0 +1,50 @@
+*{
+    font-family: montserrat, Helvetica, sans-serif  ;
+}
+h1{
+    background-color: rgba(36, 36, 36, 0.374);
+    color: aliceblue;
+    padding: 0%;
+    border-radius:15px;
+    
+}
+ul{
+    list-style:none;
+    list-style-type: none;
+}
+.elemList {
+    border-radius:15px;
+    padding: 1%;
+    margin: 1%; 
+}
+.elemList:nth-child(odd)  {
+    background-color:beige;
+}
+.elemList:nth-child(even){
+    background-color:coral;
+}
+.Delete , .Edit{
+    margin: 3px;
+    border-radius:10px ;
+    padding: 5px;
+    border: 0cap;
+    color: aliceblue;
+}
+.Delete{
+    background-color: brown;
+}
+.Edit{
+    background-color: blue;
+}
+div{/* pour quoi ca marcehe pas avec .conteraire et ca marche avec div */
+  margin: 5%;
+  padding: 5%;
+  background-color: rgba(36, 193, 47, 0.684);
+}
+button[name="add"]{
+    background-color: rgb(57, 155, 123);
+    margin: 3px;
+    border-radius:10px ;
+    padding: 5px;
+    border: 0cap;
+}
